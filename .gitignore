@@ -1,5 +1,8 @@
 *.xlsx
 input.xlsx
+input.*
+input.txt
 
 *.vcard
 output.vcard
+output.*
