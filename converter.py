@@ -5,10 +5,12 @@
 ## Repository: https://github.com/basemax/Excel2Vcard
 #
 
+# Setting
 INPUT = 'input.txt'
 OUTPUT = 'output.vcard'
 DEFAULT_INTERNATIONAL_CODE = '+962'
 
+# Function
 def main():
     # utf8 read
     with open(INPUT, 'r', encoding='utf-8') as f:
@@ -40,5 +42,6 @@ TEL;CELL:{}
 END:VCARD
 '''.format(name, name, phone))
 
+# Run
 if __name__ == '__main__':
     main()
