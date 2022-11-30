@@ -18,10 +18,10 @@ def main():
         # create the OUTPUT file
         with open(OUTPUT, 'w', encoding='utf-8') as f:
             for row in rows:
-                name = row[0]
+                name = row[0].strip()
                 name = "Ananaseh: " + name
 
-                phone = row[1]
+                phone = row[1].strip()
                 if phone.startswith('0'):
                     phone = "+962" + phone[1:]
 
