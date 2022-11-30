@@ -6,3 +6,5 @@ input.txt
 *.vcard
 output.vcard
 output.*
+output.vcf
+*.vcf
