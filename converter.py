@@ -1,4 +1,9 @@
-import pandas as pd
+#
+## Name: Excel2Vcard
+## Author: Max Base
+## Date: 2022/11/30
+## Repository: https://github.com/basemax/Excel2Vcard
+#
 
 INPUT = 'input.txt'
 OUTPUT = 'output.vcard'
