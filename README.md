@@ -40,4 +40,6 @@ df.to_csv('input.txt', index=False, header=False)
 
 It's better to add a column-base row at the top of the Excel file, and use the column names as the keys in the VCard file. But I didn't it.
 
+Read more about **VCard**: https://www.rfc-editor.org/rfc/rfc6350
+
 © Copyright 2022, Max Base
