@@ -1,5 +1,5 @@
 #
-## Name: Excel2Vcard
+## Name: Excel2VCard
 ## Author: Max Base
 ## Date: 2022/11/30
 ## Repository: https://github.com/basemax/Excel2Vcard
