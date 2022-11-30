@@ -7,6 +7,7 @@
 
 INPUT = 'input.txt'
 OUTPUT = 'output.vcard'
+DEFAULT_INTERNATIONAL_CODE = '+962'
 
 def main():
     # utf8 read
@@ -28,7 +29,7 @@ def main():
 
                 phone = row[1].strip()
                 if phone.startswith('0'):
-                    phone = "+962" + phone[1:]
+                    phone = DEFAULT_INTERNATIONAL_CODE + phone[1:]
 
                 # write the vcard
                 f.write('''BEGIN:VCARD
