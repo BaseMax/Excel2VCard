@@ -27,4 +27,17 @@ The default international code is `+962`, which is the international code of Jor
 7. Import the output file into your phone.
 8. Enjoy!
 
+## TODO
+
+The best practice is to use [Pandas](https://pandas.pydata.org/) to read the Excel file, but I didn't want to add another dependency to the project. So I read the data from a plain text file. If you want to use Pandas, you can use the following code:
+
+```python
+import pandas as pd
+
+df = pd.read_excel('input.xlsx')
+df.to_csv('input.txt', index=False, header=False)
+```
+
+It's better to add a column-base row at the top of the Excel file, and use the column names as the keys in the VCard file. But I didn't it.
+
 © Copyright 2022, Max Base
